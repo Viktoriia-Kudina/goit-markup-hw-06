@@ -388,122 +388,240 @@
         </div>
       </section>
       <!-- section-third -->
-      <section class="section-third hidden">
+      <section class="section-third">
         <div class="container">
           <h2 class="second-title">Our Portfolio</h2>
           <ul class="third-list">
             <li class="third-item card">
               <div class="cover-wrap">
-                <img
-                  src="./images/app.jpg"
-                  alt="banking-app"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
+                <picture
+                  ><source
+                    srcset="
+                      ./images/banking-mob1.jpg 1x,
+                      ./images/banking-mob2.jpg 2x
+                    "
+                    media="min-width: 320px"
+                  />
+                  <source
+                    srcset="
+                      ./images/banking-laptop1.jpg 1x,
+                      ./images/banking-laptop2.jpg 2x
+                    "
+                    media="min-width: 768px"
+                  />
+                  <source
+                    srcset="
+                      ./images/banking-d1.jpg 1x,
+                      ./images/banking-d2.jpg 2x
+                    "
+                    media="max-width: 767px"
+                  />
+                  <img
+                    src="./images/banking-mob1.jpg"
+                    alt="banking-app"
+                    width="360"
+                  />
+                </picture>
+                <p class="cover-text-o">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-box">
-                <h3 class="third-title">Banking App</h3>
-                <p class="paragraph">App</p>
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="paragraph-portfolio">App</p>
               </div>
             </li>
             <li class="third-item card">
               <div class="cover-wrap">
-                <img
-                  src="./images/payment.jpg"
-                  alt="taxi-service"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
+                <picture
+                  ><source
+                    srcset="./images/pay-mob1.jpg 1x, ./images/pay-mob2.jpg 2x"
+                    media="min-width: 320px"
+                  />
+                  <source
+                    srcset="
+                      ./images/pay-laptop1.jpg 1x,
+                      ./images/pay-laptop2.jpg 2x
+                    "
+                    media="min-width: 768px"
+                  />
+                  <source
+                    srcset="./images/pay-d1.jpg 1x, ./images/pay-d2.jpg 2x"
+                    media="max-width: 767px"
+                  />
+                  <img
+                    src="./images/pay-mob1.jpg"
+                    alt="cashless-payment"
+                    width="360"
+                  />
+                </picture>
+                <p class="cover-text-o">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-box">
-                <h3 class="third-title">Cashless Payment</h3>
-                <p class="paragraph">Marketing</p>
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="paragraph-portfolio">Marketing</p>
               </div>
             </li>
             <li class="third-item card">
               <div class="cover-wrap">
-                <img
-                  src="./images/meditation.jpg"
-                  alt="cashless-payment"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
+                <picture
+                  ><source
+                    srcset="./images/app-mob1.jpg 1x, ./images/app-mob2.jpg 2x"
+                    media="min-width: 320px"
+                  />
+                  <source
+                    srcset="
+                      ./images/app-laptop1.jpg 1x,
+                      ./images/app-laptop2.jpg 2x
+                    "
+                    media="min-width: 768px"
+                  />
+                  <source
+                    srcset="./images/app-d1.jpg 1x, ./images/app-d2.jpg 2x"
+                    media="max-width: 767px"
+                  />
+                  <img
+                    src="./images/app-mob1.jpg"
+                    alt="meditation-app"
+                    width="360"
+                  />
+                </picture>
+                <p class="cover-text-o">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-box">
-                <h3 class="third-title">Meditation App</h3>
-                <p class="paragraph">App</p>
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="paragraph-portfolio">App</p>
               </div>
             </li>
             <li class="third-item card">
               <div class="cover-wrap">
-                <img
-                  src="./images/service.jpg"
-                  alt="screen-illustrations"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
+                <picture
+                  ><source
+                    srcset="
+                      ./images/taxi-mob1.jpg 1x,
+                      ./images/taxi-mob2.jpg 2x
+                    "
+                    media="min-width: 320px"
+                  />
+                  <source
+                    srcset="
+                      ./images/taxi-laptop1.jpg 1x,
+                      ./images/taxi-laptop2.jpg 2x
+                    "
+                    media="min-width: 768px"
+                  />
+                  <source
+                    srcset="./images/taxi-d1.jpg 1x, ./images/taxi-d2.jpg 2x"
+                    media="max-width: 767px"
+                  />
+                  <img
+                    src="./images/taxi-mob1.jpg"
+                    alt="taxi-service"
+                    width="360"
+                  />
+                </picture>
+
+                <p class="cover-text-o">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-box">
-                <h3 class="third-title">Taxi Service</h3>
-                <p class="paragraph">Marketing</p>
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="paragraph-portfolio">Marketing</p>
               </div>
             </li>
             <li class="third-item card">
               <div class="cover-wrap">
-                <img
-                  src="./images/illustrations.jpg"
-                  alt="meditation-app"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
+                <picture
+                  ><source
+                    srcset="
+                      ./images/illustrations-mob1.jpg 1x,
+                      ./images/illustrations-mob2.jpg 2x
+                    "
+                    media="min-width: 320px"
+                  />
+                  <source
+                    srcset="
+                      ./images/illustrations-laptop1.jpg 1x,
+                      ./images/illustrations-laptop2.jpg 2x
+                    "
+                    media="min-width: 768px"
+                  />
+                  <source
+                    srcset="
+                      ./images/illustrations-d1.jpg 1x,
+                      ./images/illustrations-d2.jpg 2x
+                    "
+                    media="max-width: 767px"
+                  />
+                  <img
+                    src="./images/illustrations-mob1.jpg"
+                    alt="screen-illustrations"
+                    width="360"
+                  />
+                </picture>
+                <p class="cover-text-o">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-box">
-                <h3 class="third-title">Screen Illustrations</h3>
-                <p class="paragraph">Design</p>
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="paragraph-portfolio">Design</p>
               </div>
             </li>
             <li class="third-item card">
               <div class="cover-wrap">
-                <img
-                  src="./images/course.jpg"
-                  alt="online-courses"
-                  width="360"
-                  height="300"
-                />
-                <p class="cover-text">
+                <picture
+                  ><source
+                    srcset="
+                      ./images/online-mob1.jpg 1x,
+                      ./images/online-mob2.jpg 2x
+                    "
+                    media="min-width: 320px"
+                  />
+                  <source
+                    srcset="
+                      ./images/online-laptop1.jpg 1x,
+                      ./images/online-laptop2.jpg 2x
+                    "
+                    media="min-width: 768px"
+                  />
+                  <source
+                    srcset="
+                      ./images/online-d1.jpg 1x,
+                      ./images/online-d2.jpg 2x
+                    "
+                    media="max-width: 767px"
+                  />
+                  <img
+                    src="./images/online-mob1.jpg"
+                    alt="online-courses"
+                    width="360"
+                  />
+                </picture>
+                <p class="cover-text-o">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
               <div class="portfolio-box">
-                <h3 class="third-title">Online Courses</h3>
-                <p class="paragraph">Marketing</p>
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="paragraph-portfolio">Marketing</p>
               </div>
             </li>
           </ul>
